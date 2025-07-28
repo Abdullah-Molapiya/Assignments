@@ -1,0 +1,30 @@
+header {
+    background-color: rgba(2, 2, 154, 0.845);
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+nav a{
+    color: white;
+    padding: 13px;
+    padding-top: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer {
+    background-color: rgba(2, 2, 154, 0.845);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+hr.section-divider {
+    border: none;
+    border-top: 8px solid #ccc;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}

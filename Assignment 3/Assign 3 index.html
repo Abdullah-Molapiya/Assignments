@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Assign 3.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="form-container">
+        <form>
+            <label>Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label>Gender:</label><br><br>
+            <div class="gender-options">
+                <label><input type="radio" name="gender"> Male</label><br><br>
+                <label><input type="radio" name="gender"> Female</label><br><br>
+            </div>
+            <label>Skills:</label><br><br>
+            <div class="skills-options">
+                <label><input type="checkbox" name="skills"> HTML</label><br><br>
+                <label><input type="checkbox" name="skills"> CSS</label><br><br>
+                <label><input type="checkbox" name="skills"> JavaScript</label><br><br>
+            </div>
+            <label>Looking For:</label>
+            <select>
+                <option>Job</option>
+                <option>Internship</option>
+                <option>Freelance</option>
+            </select>
+            <br><br>
+            <label>Message:</label><br><br>
+            <textarea rows="4" placeholder="Write something..."></textarea><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
+
+    

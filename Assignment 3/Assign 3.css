@@ -1,0 +1,30 @@
+header {
+    background-color: rgba(2, 2, 154, 0.845);
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+nav a {
+    color: white;
+    padding: 13px;
+    padding-top: 3px; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.form-container {
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(2, 2, 154, 0.845);
+    color: white;
+    text-align: center;
+    padding: 1px; 
+}
